@@ -30,3 +30,12 @@ f.onclick = function(){
   points = 0
   g.textContent = `${points} points`
 }
+const i = document.getElementById("button5")
+const j = document.getElementById("label3")
+const min = 0
+const max = 100
+let generatedNum
+i.onclick = function(){
+generatedNum =  Math.floor(Math.random() * max) + min
+  j.textContent = generatedNum
+}

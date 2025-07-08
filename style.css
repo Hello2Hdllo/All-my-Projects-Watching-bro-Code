@@ -98,3 +98,32 @@ body{
   border-width: 5px;
   color: yellow;
 }
+#h4{
+  cursor: pointer;
+  text-align: center;
+  transition: 0.55s;
+}
+#h4:hover{
+  border: solid;
+  border-width: 5px;
+}
+#label3{
+  text-align: center;
+  display: block;
+  font-size: 5em;
+}
+.container3{
+  text-align: center;
+}
+#button5{
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 2.5em;
+  color: red;
+  background-color: blue;
+}
+#button5:active{
+  color: blue;
+  background-color: red;
+  font-size: 2.65em;
+}

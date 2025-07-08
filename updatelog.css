@@ -1,3 +1,15 @@
 body{
   background-color: mediumaquamarine;
 }
+.container1{
+  border: double;
+  border-width: 5px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.container2{
+  border: dotted;
+  border-width: 5px;
+  text-align: center;
+  font-size: 1.5em;
+}
