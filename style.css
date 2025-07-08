@@ -29,7 +29,6 @@ body{
   border-width: 3.5px;
 }
 #h2{
-  cursor: pointer;
   text-align: center;
   color: hsla(151, 67%, 41%, 1);
   border: solid hsla(195, 65%, 41%, 1);
@@ -69,4 +68,33 @@ body{
   color: green;
   border: dotted hsla(184, 100%, 54%, 1);
   border-width: 5px;
+}
+#h3{
+  text-align: center;
+}
+#label2{
+  display: block;
+  text-align: center;
+  font-size: 4em;
+}
+.container2{
+  text-align: center;
+}
+.buttons{
+  cursor: pointer;
+  transition: 0.75s;
+  font-size: 2.5em;
+  border-width: 3px;
+  color: red;
+  background-color: green;
+}
+.buttons:active{
+  font-size: 2.75em;
+  background-color: red;
+  color: green;
+}
+#label2{
+  border: double black;
+  border-width: 5px;
+  color: yellow;
 }

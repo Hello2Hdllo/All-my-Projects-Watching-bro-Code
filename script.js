@@ -9,3 +9,24 @@ a.onclick = function(){
   console.log(typeof input)
   alert(`You typed: ${input}`)
 }
+const d = document.getElementById("button2")
+const e = document.getElementById("button3")
+const f = document.getElementById("button4")
+const g = document.getElementById("label2")
+const h = document.getElementById("li2")
+let points = 0
+d.onclick = function(){
+  points = points + 1
+  g.textContent = `${points} points`
+  if(points >= 1000){
+    h.textContent = "Congrats you beat the game!"
+  }
+}
+e.onclick = function(){
+  points = points - 1
+  g.textContent = `${points} points`
+}
+f.onclick = function(){
+  points = 0
+  g.textContent = `${points} points`
+}
