@@ -18,7 +18,7 @@ let points = 0
 d.onclick = function(){
   points = points + 1
   g.textContent = `${points} points`
-  if(points >= 1000){
+  if(points > 1000){
     h.textContent = "Congrats you beat the game!"
   }
 }
