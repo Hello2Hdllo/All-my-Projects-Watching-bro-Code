@@ -9,6 +9,10 @@ body{
     animation-name: anim1;
     animation-duration: 5s;
 }
+#span1{
+    cursor: pointer;
+    background-color: hsla(61, 59%, 52%, 1)
+}
 @keyframes anim1{
     from{transform: translateX(150px)}
 }
