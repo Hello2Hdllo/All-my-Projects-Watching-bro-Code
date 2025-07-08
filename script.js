@@ -6,4 +6,6 @@ let input
 a.onclick = function(){
   input = b.value
   c.textContent = `You typed: ${input}`
+  console.log(typeof input)
+  alert(`You typed: ${input}`)
 }
