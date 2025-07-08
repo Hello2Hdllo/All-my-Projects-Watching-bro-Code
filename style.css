@@ -1,22 +1,72 @@
 body{
-    background-color: lightgreen;
+  background-color: lightblue;
 }
 #h1{
-    cursor: pointer;
-    transition: 0.75s;
-    text-align: center;
-    color: hsla(235, 68%, 51%, 1);
-    animation-name: anim1;
-    animation-duration: 5s;
+  cursor: pointer;
+  transition: 0.85s;
+  animation-name: anim1;
+  animation-duration: 5s;
+  color: mediumblue;
+  text-align: center;
 }
 #span1{
-    cursor: pointer;
-    background-color: hsla(61, 59%, 52%, 1)
-}
-@keyframes anim1{
-    from{transform: translateX(150px)}
+  cursor: pointer;
+  transition: 0.65s;
+  background-color: hsla(174, 56%, 41%, 1);
+  border: solid;
+  border-width: 2.5px;
 }
 #h1:hover{
-    font-size: 2.5em;
-    color: hsla(261, 59%, 44%, 1);
+  color: hsla(0, 63%, 44%, 1);
+  font-size: 2.35em;
+}
+@keyframes anim1{
+  from{transform: translateX(150px)}
+}
+#span1:hover{
+  background-color: hsla(76, 74%, 38%, 1);
+  border: double lightgreen;
+  border-width: 3.5px;
+}
+#h2{
+  cursor: pointer;
+  text-align: center;
+  color: hsla(151, 67%, 41%, 1);
+  border: solid hsla(195, 65%, 41%, 1);
+  border-width: 5px;
+}
+#input1{
+  cursor: pointer;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: lightskyblue;
+  transition: 0.5s;
+}
+#input1:focus{
+  background-color: hsla(282, 56%, 42%, 1);
+  font-size: 1.6em;
+}
+.container{
+  text-align: center;
+}
+#button1{
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 2.5em;
+  color: green;
+  background-color: red;
+  border-radius: 999999px;
+}
+#button1:active{
+  color: red;
+  background-color: green;
+  font-size: 2.75em;
+}
+#label1{
+  display: block;
+  text-align: center;
+  font-size: 2.5em;
+  color: green;
+  border: dotted hsla(184, 100%, 54%, 1);
+  border-width: 5px;
 }
