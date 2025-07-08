@@ -47,4 +47,5 @@ generatedNum =  Math.floor(Math.random() * max) + min
 l.onclick = function(){
   generatedNum = 0
   j.textContent = generatedNum
+  k.textContent = "Next Project"
 }
