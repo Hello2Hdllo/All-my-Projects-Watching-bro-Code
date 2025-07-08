@@ -33,6 +33,7 @@ f.onclick = function(){
 const i = document.getElementById("button5")
 const j = document.getElementById("label3")
 const k = document.getElementById("li3")
+const l = document.getElementById("button6")
 const min = 1
 const max = 100
 let generatedNum
@@ -42,4 +43,8 @@ generatedNum =  Math.floor(Math.random() * max) + min
   if(generatedNum > 99){
     k.textContent = "You got 100 😲"
   }
+}
+l.onclick = function(){
+  generatedNum = 0
+  j.textContent = generatedNum
 }
