@@ -1,6 +1,10 @@
 body{
   background-color: mediumaquamarine;
 }
+#h1{
+  font-size: 3em;
+  text-align: center;
+}
 .container1{
   border: double;
   border-width: 5px;
