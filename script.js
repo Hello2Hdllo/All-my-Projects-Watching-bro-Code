@@ -43,6 +43,7 @@ generatedNum =  Math.floor(Math.random() * max) + min
   if(generatedNum > 99){
     k.textContent = "You got 100 😲"
   }
+  console.log(generatedNum)
 }
 l.onclick = function(){
   generatedNum = 0
